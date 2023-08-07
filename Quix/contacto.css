@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formulario {
+    background-color: #002b6a;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 70vh;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffff;
+  }
+  
+  p {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b8b8b8;
+  }
+
+  form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .input-field {
+    position: relative;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #b8b8b8;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    color: #b8b8b8;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-bottom-color: #3586ff;
+  }
+  
+  label {
+    position: absolute;
+    pointer-events: none;
+    top: 10px;
+    left: 0;
+    font-size: 16px;
+    color: #b8b8b8;
+    transition: 0.2s ease all;
+  }
+  
+
+  input:focus ~ label,
+  textarea:focus ~ label,
+  input:valid ~ label,
+  textarea:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+  
+  input[type="submit"] {
+    background-color: #3586ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1f4fc3;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  input[type="submit"]{
+    margin-top: 10px;
+  }

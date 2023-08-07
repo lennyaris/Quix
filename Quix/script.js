@@ -33,10 +33,10 @@ function onScroll() {
 
       if (isVisible) {
         step.classList.add('shown');
-        // Ajusta la velocidad de cada paso
+
         step.style.animationDelay = `${index * 0.5}s`;
 
-        // Cargar la imagen utilizando Intersection Observer
+
         const img = step.querySelector('img.lazy');
         if (img) {
           const observer = new IntersectionObserver((entries, observer) => {
@@ -60,10 +60,9 @@ function onScroll() {
 
 window.addEventListener('scroll', onScroll);
 
-
-
-
-
+function redirectToPage() {
+  window.location.href = "contacto.html";
+}
 
 
 

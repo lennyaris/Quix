@@ -57,7 +57,8 @@ nav ul {
 article h2,
 article p,
 #beneficios h1,
-.sweep2 {
+.sweep2,
+button {
   font-family: 'Rubik', sans-serif;
 }
 
@@ -108,7 +109,7 @@ img {
 
 
 #beneficios h1 {
-  color: #fff;
+  color: #ffff;
   font-size: 40px;
   padding: 20px;
 }
@@ -156,7 +157,7 @@ img {
 }
 
 .sweep2 {
-  color: #fff;
+  color: #ffff;
   font-size: 40px;
   padding: 20px;
 }
@@ -207,9 +208,15 @@ img {
   margin-right: -70vw;
 }
 
-.nosotros {
-  height: 50vh;
+#nosotros {
+  height: 100vh;
   width: 100%;
+}
+
+#ceos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-client {
@@ -219,6 +226,7 @@ img {
   padding-bottom: 25px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 20px;
   box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
   border-radius: 10px;
   text-align: center;
@@ -324,4 +332,28 @@ img {
   transform: translate(-50%, -130%);
 }
 
+#contactanos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10vh;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3586ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #002b6a;
+  transform: translateY(-2px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
 
