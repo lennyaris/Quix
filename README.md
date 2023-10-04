@@ -1,5 +1,5 @@
 
-![Logo] (../readme/logo quix.png)
+![Logo] (logoquix.png)
 
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDc92TlFscqbk17WEkf3Yda_Yl_jG2kIT1nnR2fXwqywYU05rsMDFVLcBmZcQ1oCo2A&usqp=CAU)
 
