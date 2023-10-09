@@ -2,7 +2,8 @@
 
 ![Streambe](logostreambe.png)
 
-
+## Acceso a la web 
+- https://quixedu.000webhostapp.com/Quix/
 
 
 Quix es una pagina que conecta los planes de compra de una aplicacion en desarrollo con el usuario.
